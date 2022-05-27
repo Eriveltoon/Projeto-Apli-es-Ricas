@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <title>RSocial</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <img src="../images/redes-sociais.png" style="width: 50px;" alt="logo">
+    </header>
+    <main class="main">
+        <div class="newPost">
+            <div class="infoUser">
+                <div class="imgUser"></div>
+                <strong>Erivelton</strong>
+            </div>
+            <form action="" class="formPost" id="formPost">
+                <textarea name="textarea" placeholder="Digite aqui..." id="textarea"></textarea>
+                <div class="iconsAndButton">
+                    <div class="icons">
+                        <button class="btnFileForm">
+                            <img src="../images/imagem.png" style="width: 20px;" alt="adicionar uma imagem">
+                        </button>
+                        <button class="btnFileForm">
+                            <img src="../images/video.png" style="width: 25px;" alt="adicionar uma video">
+                        </button>
+                        <button class="btnFileForm">
+                            <img src="../images/mensagem-de-audio.png" style="width: 25px;" alt="adicionar um audio">
+                        </button>
+                    </div>
+                    <button type="submit" id="botao" class="btnSubmitForm">Postar</button>
+                </div>
+            </form>
+        </div>
+
+        <ul class="posts" id="posts"></ul>
+    </main>
+    <script src="../js/index.js"></script>
+</body>
+</html>

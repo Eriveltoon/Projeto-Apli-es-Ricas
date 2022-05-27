@@ -4,6 +4,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-image: url(../images/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -21,6 +28,14 @@ h1{
     text-align: center;
     margin-bottom: 20px;
     color: #272262;
+}
+
+input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #272262;
 }
 
 .emailSenha input{
@@ -43,4 +58,47 @@ h1{
     margin-bottom: 5%;
 }
 
+button{
+    background-color: transparent;
+    border-color: #272262;
+    color: #272262;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none; 
+}
 
+button:hover{
+    background-color: #272262;
+    color: #fff;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+p{
+    color: #272262;
+    font-size: 14pt;
+    text-align: center;
+}
+
+a{
+    color: #7a3077;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: #272262;
+}
